@@ -1,0 +1,116 @@
+.container {
+    padding: 20px;
+}
+
+.title {
+    color: #f39c12;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px; /* Smaller font size */
+}
+
+input, select {
+    width: 200px;
+    padding: 4px; /* Smaller padding */
+    font-size: 12px; /* Smaller font size */
+    box-sizing: border-box;
+    margin-right: 12px;
+}
+
+.btn {
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.search {
+    background-color: #7b8a7f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.reset {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search:hover, .reset:hover {
+    opacity: 0.8;
+}
+
+/* Added styles for the table */
+.results {
+    margin-top: 20px;
+}
+
+.results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results th,
+.results td {
+    border: 1px solid #ddd;
+    padding: 8px; /* Added padding */
+    text-align: left;
+}
+
+.results th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 12px; /* Smaller font size */
+}
+
+.results tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.results tr:hover {
+    background-color: #f1f1f1;
+}
+
+.results td {
+    font-size: 12px; /* Smaller font size */
+}
+
+.clallbtn {
+    width: auto;
+}
+
+.no-results {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .no-results p {
+    color: #666;
+    font-size: 16px;
+  }

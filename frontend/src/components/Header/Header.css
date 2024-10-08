@@ -1,0 +1,129 @@
+.main-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    box-shadow:0px 5px 6px 0px #1a71a4;
+
+}
+
+.top-image {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #3C8DBC;
+ 
+}
+.interface
+{
+    width: 20px;
+    height: auto;
+    background-color: transparent;
+}
+
+.btn{
+    background-color: #3C8DBC;
+    border-color: transparent;
+    border-radius: 4px;
+     padding: 0.5rem 1rem;
+}
+
+.btn:hover{
+    background-color: #1a71a4;
+}
+
+
+.header-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-name {
+    color: white;
+}
+
+.logout-button {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #1a71a4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown button:hover {
+    background-color: #1a71a4;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+    min-width: 150px;
+    padding: 0.2rem 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.dropdown-menu li {
+    padding: 0.5rem 1rem;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: small;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown.open .dropdown-menu {
+    display: block;
+}
+
+.dropdown-arrow {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 1em;
+}
+
+
+
+h1 {
+    margin-bottom: 1rem;
+}

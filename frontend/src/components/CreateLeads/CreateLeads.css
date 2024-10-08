@@ -1,0 +1,144 @@
+/* createLead.css */
+
+/* Base styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Form layout */
+.form-section {
+  width: 96%;
+  margin: 1% auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 15px;
+  min-width: 0;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+.full-width {
+  flex-basis: 100%;
+}
+
+/* Form elements */
+label {
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input,
+select {
+  max-width: 270px;
+}
+
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23333333%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px top 50%;
+  background-size: 10px auto;
+  padding-right: 25px;
+}
+
+input[type="textarea"], textarea {
+  resize: vertical;
+  min-height: 100px;
+  min-width: 86%;
+}
+
+/* Specific element styles */
+#field25 {
+  width: 100%;
+  min-height: 150px;
+}
+
+input[type="date"] {
+  width: 25px;
+  min-width: 17px;
+  font-size: larger;
+  height: 30px;
+}
+
+#field18 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.date-picker-wrapper {
+  margin-left: 10px;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+/* Error and mandatory styles */
+.error {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.mandatory {
+  border-color: #d32f2f;
+}
+
+/* Submit button */
+.submit {
+  background-color: #4a4a4a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Georgia', serif;
+  margin-top: 5px;
+  
+}
+
+.submit:hover {
+  background-color: #333;
+}
+
+/* Media query for responsive design */
+

@@ -1,0 +1,69 @@
+/* Add a CSS file or a <style> block in your component */
+.table-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+display-button {
+  background-color: #D6701E;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+display-button:hover {
+  background-color: #b5730d;
+}
+
+display {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error-message, .loading-message, .no-leads-message {
+  font-size: 18px;
+  color: #ff4d4d; /* Red for errors */
+  text-align: center;
+  margin: 20px;
+}
+
+.loading-message {
+  color: #007bff; /* Blue for loading */
+}
+
+.no-leads-message {
+  color: #888; /* Gray for no leads */
+}

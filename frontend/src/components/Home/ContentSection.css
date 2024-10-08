@@ -1,0 +1,84 @@
+/* ContentSection.css */
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.content-box {
+  width: 48%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: white;
+}
+
+.create-lead {
+  background-color: #3c8dbc;
+}
+
+.to-do {
+  background-color: #f39c12;
+}
+
+.content-box h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  padding: 0 0 0 10px;
+  margin-top: 5px;
+}
+
+.content-box button {
+  width: 100%;
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box button::after {
+  content: ' →';
+  margin-left: 5px;
+}
+
+.create-lead button {
+  background-color: #1a71a4;
+}
+
+.create-lead button:hover {
+  background-color: #15597f;
+}
+
+.to-do button {
+  background-color: #da8c10;
+}
+
+.to-do button:hover {
+  background-color: #b5730d;
+}
+
+.icon {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  overflow: visible;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

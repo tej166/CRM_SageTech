@@ -1,0 +1,145 @@
+/* Modal overlay background */
+.user-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly darker overlay for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure modal appears on top */
+}
+
+/* Modal window */
+.user-modal {
+  background: white;
+  padding: 30px;
+  border-radius: 8px; /* Slightly more rounded corners */
+  max-width: 850px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+}
+
+/* Form styling */
+.user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group styling */
+.user-form-group {
+  margin-bottom: 8px; /* Slightly more space between groups */
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+/* Labels */
+.user-form-group label {
+  font-size: 14px; /* Slightly smaller for better fit */
+  margin-bottom: 2px;
+  font-weight: 500; /* A bit bolder for readability */
+  width: 100px; /* Fixed width for alignment */
+}
+
+/* Input and select elements */
+.user-form-group input,
+.user-form-group select {
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Lighter border color */
+  width: 250px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 8px; /* Add some padding for better text visibility */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Full-width buttons for actions */
+.full-width {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Button styling */
+button {
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button for adding users or editing users */
+.create-user-btn,
+.edit-btn,
+.add-usr-btn,
+.close-btn {
+  color: white;
+  border: none;
+
+  margin-top: 5px;
+}
+
+.create-user-btn,
+.add-usr-btn {
+  background-color: #f39c12;
+}
+
+.edit-btn {
+  background-color: #f39c12; /* Different color for edit button */
+}
+
+.close-btn {
+  background-color: #f39c12; /* Red color for close button */
+}
+
+/* Hover effects for buttons */
+.create-user-btn:hover,
+.edit-btn:hover,
+.add-usr-btn:hover,
+.close-btn:hover {
+  opacity: 0.9;
+}
+
+/* Table container for user table */
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto; /* Allow horizontal scrolling for small screens */
+}
+
+.user-heading {
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #2c3e50; /* Dark blue color for heading */
+}
+
+/* Styling for the table */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table tr:hover {
+  background-color: #f5f5f5;
+}
